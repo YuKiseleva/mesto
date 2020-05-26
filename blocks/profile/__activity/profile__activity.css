@@ -1,0 +1,17 @@
+.profile__activity{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+    
+    @media (min-width: 320px) and (max-width: 1023px) {
+        .profile__activity{ 
+            font-size: 14px;
+        }
+    
+    }

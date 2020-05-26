@@ -1,0 +1,13 @@
+.place__name{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 24px;
+    color: #000000;
+    
+    }

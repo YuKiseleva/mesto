@@ -1,0 +1,21 @@
+.profile__edd-button{
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    background: none;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    padding: 0px;
+    
+}
+.profile__edd-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .profile__edd-button{
+        width: 280px;
+    }
+    
+    }

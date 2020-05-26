@@ -1,0 +1,18 @@
+.popup__input{
+    align-self: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    height: 20px;
+    width: 360px;
+    margin-bottom: 30px;
+    
+    }
+    
+    @media (min-width: 320px) and (max-width: 1024px){
+        .popup__input{
+            width: 280px;
+        }
+    
+    }

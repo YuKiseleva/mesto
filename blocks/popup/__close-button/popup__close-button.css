@@ -1,0 +1,25 @@
+.popup__close-button{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    background: none;
+    margin-top: 12%;
+    margin-left: 31%;
+    border: none;
+    }
+    .popup__close-button:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    
+    @media (min-width: 320px) and (max-width: 1024px){
+        
+        .popup__close-button{
+            margin-top: 20px;
+        margin-left: 20px;
+        height: 20px;
+    width: 20px;
+    }
+    }
+    

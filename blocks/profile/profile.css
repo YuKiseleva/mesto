@@ -1,0 +1,37 @@
+@import url(__avatar/profile__avatar.css);
+@import url(__info/profile__info.css);
+@import url(__name/profile__name.css);
+@import url(__activity/profile__activity.css);
+@import url(__edit-button/profile__edit-button.css);
+@import url(__edit-logo/profile__edit-logo.css);
+@import url(__edd-button/profile__edd-button.css);
+@import url(__edd-logo/profile__edd-logo.css);
+
+.profile{
+   position: relative;
+    align-self: center;
+    width: 880px;
+    display: grid;
+    grid-template-areas: 
+    "avatar profile-info plus";
+    grid-template-columns: 170px 1fr 150px;
+    margin-left: calc((100% - 880px) / 2);
+    margin-right: calc((100% - 880px) / 2);
+    margin-bottom: 50px;
+   
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .profile{  
+     grid-template-areas: 
+     "avatar"
+     "profile-info"
+     "plus";
+     width: 280px;
+     margin-left: calc((100% - 280px) / 2);
+     margin-right: calc((100% - 280px) / 2);
+     grid-template-columns: 1fr ;
+
+  }
+
+}

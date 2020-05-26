@@ -1,0 +1,17 @@
+@import url(__image/place__image.css);
+@import url(__name/place__name.css);
+@import url(__like/place__like.css);
+
+.place{
+    display: grid;
+    grid-template-areas: 
+    "image image"
+    "name like";
+    grid-template-columns: 1fr 50px;
+    grid-template-rows: 280px 80px;
+    margin: 0px;
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 10px; 
+    overflow: hidden;
+}
