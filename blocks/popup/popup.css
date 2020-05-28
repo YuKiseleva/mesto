@@ -1,4 +1,4 @@
-@import url(_opened/popup_opened.css);
+
 @import url(__container/popup__container.css);
 @import url(__name/popup__name.css);
 @import url(__close-button/popup__close-button.css);
@@ -14,4 +14,8 @@
     z-index: 5;
     justify-content: center;
     position: fixed;
+}
+.popup_opened{
+    display:flex; 
+    
 }
