@@ -1,6 +1,13 @@
+
 @font-face {
     font-family: Inter; 
-    font-weight: bold;
+    font-weight: 500;
+    src: url(Inter/Inter-Medium.otf);
+    
+}
+@font-face {
+    font-family: Inter; 
+    font-weight: 900;
     src: url(Inter/Inter-ExtraBold.otf);
     
 }

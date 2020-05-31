@@ -7,7 +7,17 @@
     height: 20px;
     width: 360px;
     margin-bottom: 30px;
-    
+    font-family: 'Inter', Arial, sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    }
+    .popup__input:focus {
+        outline-color: #000000; 
+        outline-style: solid;
+        outline-width: 3px; 
     }
     
     @media (min-width: 320px) and (max-width: 1024px){

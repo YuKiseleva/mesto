@@ -54,4 +54,5 @@ function formSubmitHandler (evt) {
 // он будет следить за событием “submit” - «отправка»
 formElement.addEventListener('submit', formSubmitHandler);
  formElement.addEventListener('click', formSubmitHandler);
+ formElement.addEventListener('keyup', formSubmitHandler);
 

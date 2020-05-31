@@ -4,10 +4,31 @@
     width: 40px;
     padding: 0px;
     background: none;
-    margin-top: 12%;
-    margin-left: 31%;
+    margin-top: calc(50vh - 165px - 40px);
+    margin-left: calc(50vw + (430px / 2));
+    justify-content: center;
+    transform: rotate(45deg);
     border: none;
     }
+
+
+    .popup__close-button:before, .popup__close-button:after {
+        position: absolute;
+        content: ' ';
+        height: 40.7px;
+        width: 5px;
+        background-color: #FFFFFF;
+        align-self: center;
+        justify-self: center;
+        }
+
+    .popup__close-button:before {
+        transform: rotate(0deg);
+        }
+        .popup__close-button:after {
+        transform: rotate(90deg);
+        }
+
     .popup__close-button:hover{
         cursor: pointer;
         opacity: 0.5;
@@ -16,10 +37,16 @@
     @media (min-width: 320px) and (max-width: 1024px){
         
         .popup__close-button{
-            margin-top: 20px;
-        margin-left: 20px;
-        height: 20px;
-    width: 20px;
+
+            margin-top: calc(50vh - (330px/2) - 30px);
+            margin-left: calc(50vw + (320px / 2) - 30px);;
+            height: 20px;
+            width: 20px;
     }
+    .popup__close-button:before, .popup__close-button:after {
+        height: 20.7px;
+        }
+
+
     }
     

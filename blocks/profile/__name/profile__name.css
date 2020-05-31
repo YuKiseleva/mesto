@@ -1,11 +1,10 @@
 .profile__name{
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif; 
     font-style: normal;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 40px;
     color: #FFFFFF;
     margin: 0px;
-    padding: 0px;
     }
     @media (min-width: 320px) and (max-width: 1023px) {
         .profile__name{ 
@@ -16,4 +15,4 @@
         }
     
     }
-    
+

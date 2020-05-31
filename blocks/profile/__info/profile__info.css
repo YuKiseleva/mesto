@@ -3,7 +3,7 @@
     grid-template-areas: 
     "name button"
     "activity activity";
-    grid-template-columns: 300px 25px;
+    grid-template-columns: 295px 25px;
     grid-template-rows: 40px 20px;
     grid-gap: 20px;
     margin-top: 20px;
